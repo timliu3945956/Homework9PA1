@@ -16,6 +16,7 @@ using namespace std;
 void checkURL(string );
 void displayVersion(double );
 
+// comment added here
 static double version = 1.2;
 
 int main(int argc, char** argv) {
