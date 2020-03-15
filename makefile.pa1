@@ -1,0 +1,8 @@
+output: main.o version.o
+	g++ main.o version.o -o output
+
+main.o: main.cpp version.cpp
+	g++ -c main.cpp
+
+version.o: version.cpp
+	g++ -c version.cpp
